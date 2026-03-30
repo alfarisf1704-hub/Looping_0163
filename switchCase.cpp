@@ -27,11 +27,11 @@ void pilihanJurusan()
         namaJurusan = "Teknologi Informasi";
         statusKuota = "Tersedia (15 kursi)";
         break;
-    case 1:
+    case 2:
         namaJurusan = "Teknik Elektro";
         statusKuota = "Kuota Penuh!";
         break;
-    case 1:
+    case 3:
         namaJurusan = "Sistem Informasi";
         statusKuota = "Tersedia (5 kursi)";
         break;
