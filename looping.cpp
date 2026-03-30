@@ -28,6 +28,7 @@ int main()
         cout << "BILANGAN ACAK WHILE YG TERAKHIR = " << x << endl;
         cout << endl;
 
+        // PERULANGAN DENGAN DO-WHILE
         cout << "PERULANGAN DO....WHILE" << endl;
         x = 1 + rand() % 10;
         do
