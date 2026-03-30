@@ -57,9 +57,9 @@ int main()
     cin >> nilB;
 
     rerata = (nilB + nilM) / 2;
-    if (i(rerata, 60))
+    if (!(rerata, 60))
         status = "lulus";
     else
         status = "tidak lulus";
-    cout << "STATUS KELULUSAN = " << STATUS << " ,DENGAN NILAI RATA-RATA = " << rerata << endl;
+    cout << "STATUS KELULUSAN = " << status << " ,DENGAN NILAI RATA-RATA = " << rerata << endl;
 }
