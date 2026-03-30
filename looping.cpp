@@ -85,3 +85,25 @@ int main()
         status = "tidak lulus";
     cout << "STATUS KELULUSAN = " << status << " ,DENGAN NILAI RATA-RATA = " << rerata << endl;
 }
+
+// Logika and
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float nilB, nilM, rerata;
+    string status;
+
+    cout << "Masukan Nilai Matematika = ";
+    cin >> nilM;
+    cout << "Masukan Nilai Bahasa Inggris = ";
+    cin >> nilB;
+
+    rerata = (nilB + nilM) / 2;
+    if ((rerata, 60) && (nilM >= 70))
+        status = "lulus";
+    else
+        status = "tidak lulus";
+    cout << "STATUS KELULUSAN = " << status << " ,DENGAN NILAI RATA-RATA = " << rerata << endl;
+}
