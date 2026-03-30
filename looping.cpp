@@ -24,20 +24,42 @@ int main()
     {
         cout << "BILANGAN ACAK = " << x << endl;
         x = 1 + rand() % 10;
-
-        cout << "BILANGAN ACAK WHILE YG TERAKHIR = " << x << endl;
-        cout << endl;
-
-        // PERULANGAN DENGAN DO-WHILE
-        cout << "PERULANGAN DO....WHILE" << endl;
-        x = 1 + rand() % 10;
-        do
-        {
-            cout << "BILANGAN ACAK = " << x << endl;
-            x = rand() % 10;
-        } while (x <= 5);
-
-        cout << "BILANGAN ACAK DO-WHILE YG TERAKHIR = " << x << endl;
-        cout << endl;
     }
+
+    cout << "BILANGAN ACAK WHILE YG TERAKHIR = " << x << endl;
+    cout << endl;
+
+    // PERULANGAN DENGAN DO-WHILE
+    cout << "PERULANGAN DO....WHILE" << endl;
+    x = 1 + rand() % 10;
+    do
+    {
+        cout << "BILANGAN ACAK = " << x << endl;
+        x = rand() % 10;
+    } while (x <= 5);
+
+    cout << "BILANGAN ACAK DO-WHILE YG TERAKHIR = " << x << endl;
+    cout << endl;
+}
+
+// Logika not
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float nilB, nilM, rerata;
+    string status;
+
+    cout << "Masukan Nilai Matematika = ";
+    cin >> nilM;
+    cout << "Masukan Nilai Bahasa Inggris = ";
+    cin >> nilB;
+
+    rerata = (nilB + nilM) / 2;
+    if (i(rerata, 60))
+        status = "lulus";
+    else
+        status = "tidak lulus";
+    cout << "STATUS KELULUSAN = " << STATUS << " ,DENGAN NILAI RATA-RATA = " << rerata << endl;
 }
